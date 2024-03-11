@@ -1,6 +1,6 @@
-# Create a simple single page application for to-do list in vuejs.
+# Created a simple single page application for to-do list in vuejs.
 ```
-The following features must be available to the user :-
+The following features are be available to the user :-
 • User can update the to-do list. 
 • A check-off list of everything that has been done. 
 • All open tasks are shown in a list for easy viewing by the user. 
