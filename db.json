@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": "51cc",
+      "text": "Read a book",
+      "completed": true,
+      "createdAt": "2024-03-11"
+    },
+    {
+      "id": "a7fa",
+      "text": "Take mock test",
+      "completed": false,
+      "createdAt": "2024-03-11"
+    },
+    {
+      "id": "29c2",
+      "text": "Learn DSA ",
+      "completed": false,
+      "createdAt": "2024-03-11"
+    },
+    {
+      "id": "d86f",
+      "text": "Attend BootCamp",
+      "completed": false,
+      "createdAt": "2024-03-11"
+    }
+  ]
+}
