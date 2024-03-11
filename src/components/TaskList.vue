@@ -15,7 +15,7 @@
           <th>Creation Date</th>
           <th>Completed</th>
           <th>Update</th>
-          <th>Remove</th> <!-- New column for remove option -->
+          <th>Remove</th> 
         </tr>
       </thead>
 
@@ -30,7 +30,7 @@
             <input type="text" v-model="task.text" @change="updateTask(task)">
           </td>
           <td>
-            <button @click="removeTask(task.id)">Remove</button> <!-- Remove button -->
+            <button @click="removeTask(task.id)">Remove</button> 
           </td>
         </tr>
       </tbody>
@@ -110,32 +110,32 @@ export default {
 
 <style>
 .centered-table {
-  margin: 0 auto; /* Center the table horizontally */
-  border-collapse: collapse; /* Collapse borders into a single border */
-  width: 50%; /* Set the width of the table */
+  margin: 0 auto; 
+  border-collapse: collapse; 
+  width: 50%; 
 }
 
 .centered-table th,
 .centered-table td {
-  border: 1px solid #120f0f; /* Add border to table cells */
-  padding: 8px; /* Add padding to table cells */
-  text-align: left; /* Align text to the left within table cells */
+  border: 1px solid #120f0f; 
+  padding: 8px; 
+  text-align: left;
 }
 
 .centered-table th {
   background-color: #2c3e50;
-  color:aliceblue; /* Set background color for table header */
+  color:aliceblue; 
 }
 
 button {
-  background-color: #2c3e50; /* Button background color */
-  color: white; /* Button text color */
+  background-color: #2c3e50; 
+  color: white; 
   border: none;
   padding: 6px 12px;
   border-radius: 4px;
   cursor: pointer;
 }
 button:hover {
-  background-color: #2cb16e; /* Darker shade for hover effect */
+  background-color: #2cb16e; 
 }
 </style>
