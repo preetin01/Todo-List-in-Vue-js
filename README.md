@@ -23,7 +23,10 @@ npm install
 ```
 npm run serve
 ```
-
+### you can start the JSON server by running the following command in your terminal within the project directory:
+```
+json-server --watch db.json
+```
 ### Compiles and minifies for production
 ```
 npm run build
