@@ -35,20 +35,20 @@ export default {
   display: flex;
   width:30%;
   align-items: center;
-  margin-bottom: 20px; /* Adjust margin as needed */
+  margin-bottom: 20px; 
 }
 
 .add-task-input {
   flex: 1;
-  margin-right: 10px; /* Adjust margin as needed */
+  margin-right: 10px; 
   padding: 8px;
-  border: 1px solid #120f0f; /* Match table cell border color */
+  border: 1px solid #120f0f; 
   border-radius: 4px;
 }
 
 .add-task-button {
   padding: 8px 16px;
-  background-color: #2c3e50; /* Match table header background color */
+  background-color: #2c3e50; 
   color: white;
   border: none;
   border-radius: 4px;
@@ -56,6 +56,6 @@ export default {
 }
 
 .add-task-button:hover {
-  background-color: #2cb16e; /* Darker shade for hover effect */
+  background-color: #2cb16e; 
 }
 </style>
